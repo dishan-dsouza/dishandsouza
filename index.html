@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dishan Vinoy D Souza — Finance & Accounting Professional</title>
+<meta name="description" content="Dishan Vinoy D Souza — Finance & Accounting professional specializing in audit, financial reporting, and CMA (US) candidate. Mangalore, India.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Ambient grid background -->
+<canvas id="ledger-grid"></canvas>
+
+<!-- ===== NAV ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">DV<span class="logo-dot">.</span>D</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Mangalore, India · CMA (US) Candidate</p>
+      <h1 class="hero-name">Dishan Vinoy<br>D&nbsp;Souza</h1>
+      <p class="hero-tagline">
+        I turn financial complexity into clarity — closing the books for 30+ entities,
+        steering audits across 70+ clients, and building the reporting discipline
+        that lets businesses trust their own numbers.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+        </a>
+        <a href="assets/resume/1Dishan Vinoy D Souza.pdf" download="1Dishan Vinoy D Souza.pdf" class="btn btn-ghost">
+          <i data-lucide="download"></i><span>Download Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <span>Let's Connect</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <canvas id="ledger-chart"></canvas>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-number" data-target="70">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Clients Audited</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="30">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Entities Finalized</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">On-Time Filings</span>
+        </div>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scroll-cue" aria-label="Scroll to About section">
+      <i data-lucide="chevron-down"></i>
+    </button>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>About</h2>
+        <p class="section-sub">The story behind the numbers.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-story reveal">
+          <p>
+            Dishan started in freelance bookkeeping — reconciling ledgers and journal entries
+            one client at a time — before stepping into structured audit practice at
+            Gonsalves &amp; Nayak Chartered Accountants. In just over a year he moved from
+            Audit Executive to Senior Account Executive, a promotion earned by leading a
+            six-person team through 70+ statutory, tax, and internal audits without missing
+            a single reporting deadline.
+          </p>
+          <p>
+            What sets him apart isn't just technical accuracy, though that's a given —
+            it's the speed at which he absorbs new systems. Dropped into an unfamiliar
+            ERP with zero prior exposure, he was running compliance and reporting through
+            it within weeks, and now trains other team members on it. He's equally
+            comfortable finalizing a balance sheet, building a projected financial
+            statement, or explaining a variance to a client who just wants a straight
+            answer.
+          </p>
+          <p>
+            He's currently working through the CMA (US) program, layering US GAAP,
+            internal controls, and management accounting on top of an audit background
+            that's already grounded in real client work — not just theory.
+          </p>
+        </div>
+
+        <div class="about-identity reveal">
+          <div class="identity-card">
+            <span class="identity-label">Core Focus</span>
+            <ul>
+              <li>Financial statement finalization</li>
+              <li>Audit planning &amp; execution</li>
+              <li>Ratio &amp; variance analysis</li>
+              <li>Internal controls &amp; compliance</li>
+            </ul>
+          </div>
+          <div class="identity-card">
+            <span class="identity-label">Currently Pursuing</span>
+            <p class="identity-highlight">CMA (US)</p>
+            <span class="identity-note">Building depth in US GAAP &amp; management accounting</span>
+          </div>
+          <div class="identity-card">
+            <span class="identity-label">Languages</span>
+            <p class="identity-tags">English · Malayalam · Kannada · Hindi · Konkani</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p class="section-sub">Grouped by where they show up in the work.</p>
+      </div>
+
+      <div class="skills-grid" id="skills-grid">
+        <!-- populated in HTML directly for reliability -->
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="line-chart"></i>
+            <h3>Financial Planning &amp; Analysis</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Projected Financial Statements</li>
+            <li>Ratio Analysis</li>
+            <li>Financial Modeling</li>
+            <li>Budgeting &amp; Forecasting Support</li>
+            <li>Variance Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="book-open-check"></i>
+            <h3>US GAAP &amp; Accounting Standards</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Working Knowledge of US GAAP</li>
+            <li>Financial Statement Analysis</li>
+            <li>Management Accounting</li>
+            <li>Cost Accounting Fundamentals</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="shield-check"></i>
+            <h3>Internal Controls &amp; Compliance</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Controls Design &amp; Testing</li>
+            <li>SOX Awareness</li>
+            <li>Audit Documentation</li>
+            <li>Risk &amp; Discrepancy Identification</li>
+            <li>Process Improvement</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="clipboard-check"></i>
+            <h3>Audit &amp; Assurance</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Statutory, Tax &amp; Internal Audits</li>
+            <li>Audit Planning &amp; Execution</li>
+            <li>Account Reconciliation</li>
+            <li>Financial Statement Finalization</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="monitor-cog"></i>
+            <h3>Software &amp; Tools</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Advanced MS Excel (Pivot Tables, XLOOKUP)</li>
+            <li>Power BI</li>
+            <li>Tally Prime</li>
+            <li>Winman CA-ERP</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <i data-lucide="users"></i>
+            <h3>Professional Strengths</h3>
+          </div>
+          <ul class="skill-tags">
+            <li>Fast Learner</li>
+            <li>Team Leadership</li>
+            <li>Client Relationship Management</li>
+            <li>Attention to Detail</li>
+            <li>Cross-functional Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section experience">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Experience</h2>
+        <p class="section-sub">From freelance ledgers to leading audit teams.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jul 2026 — Present</span>
+              <span class="timeline-org">Gonsalves &amp; Nayak Chartered Accountants</span>
+            </div>
+            <h3>Senior Account Executive</h3>
+            <p class="timeline-note">Promoted from Audit Executive for strong performance.</p>
+            <ul>
+              <li>Guides and mentors the team on reporting and analysis after promotion from Audit Executive.</li>
+              <li>Trains team members on accounting software, financial statement preparation, and compliance — the team's go-to resource for technical questions.</li>
+              <li>Leads audit engagements, financial statement finalization, and analytical reviews, owning team guidance and quality review.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Apr 2025 — Jun 2026</span>
+              <span class="timeline-org">Gonsalves &amp; Nayak Chartered Accountants</span>
+            </div>
+            <h3>Audit Executive</h3>
+            <ul>
+              <li>Led a team of 6 across 70+ client audits — statutory, tax, and internal — meeting 100% of reporting deadlines.</li>
+              <li>Finalized financial statements — Balance Sheet, P&amp;L, Notes to Accounts — for 30+ entities across industries.</li>
+              <li>Built projected financial statements and applied ratio analysis to assess financial health and guide client decisions.</li>
+              <li>Learned a new ERP system with no prior exposure, becoming proficient within weeks and using it for compliance and reporting.</li>
+              <li>Supervised and allocated team workload; reviewed audit documentation and lifted assignment efficiency by 15%.</li>
+              <li>Served as main point of contact for clients, resolving audit and compliance queries while maintaining strong relationships.</li>
+              <li>Verified accounting records and vouchers in detail — found discrepancies, strengthened controls, cut reporting errors.</li>
+              <li>Managed tax and regulatory filings for multiple clients, achieving 100% on-time submission.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jul 2023 — Dec 2024</span>
+              <span class="timeline-org">Self-Employed</span>
+            </div>
+            <h3>Freelance Tally Accountant</h3>
+            <ul>
+              <li>Handled end-to-end bookkeeping for 4+ clients in Tally Prime, including sales, purchase, and journal entries.</li>
+              <li>Reconciled bank statements and ledgers to keep client records accurate.</li>
+              <li>Supported financial statement preparation — the foundation for later audit and reporting work.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">04</div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">2020 — 2023</span>
+              <span class="timeline-org">Kannur University</span>
+            </div>
+            <h3>B.Com (Co-operative)</h3>
+            <p class="timeline-note">Foundation degree in commerce, ahead of professional audit practice.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-strip reveal">
+        <div class="cert-chip"><i data-lucide="award"></i><span>CMA (US) — In Progress</span></div>
+        <div class="cert-chip"><i data-lucide="award"></i><span>Tally Prime with GST — TEPL</span></div>
+        <div class="cert-chip"><i data-lucide="award"></i><span>MS Excel for Data Analytics — Coursera</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Featured Work</h2>
+        <p class="section-sub">Beyond the day job — initiatives Dishan built and led.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <i data-lucide="briefcase"></i>
+          </div>
+          <h3>Financial &amp; Accounting Services Co-Founding</h3>
+          <p class="project-purpose">
+            <strong>Purpose:</strong> Independent professionals needed reliable, affordable
+            bookkeeping and accounting support without going through a large firm.
+          </p>
+          <p class="project-solution">
+            <strong>What he built:</strong> Co-founded a small financial and accounting
+            service business, applying the same rigor from his freelance Tally work to
+            a repeatable client-service model.
+          </p>
+          <div class="project-badges">
+            <span>Tally Prime</span><span>Client Management</span><span>Bookkeeping</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <i data-lucide="bar-chart-3"></i>
+          </div>
+          <h3>Co-operative Bank Transaction Analysis</h3>
+          <p class="project-purpose">
+            <strong>Purpose:</strong> A semester project requiring a data-driven read on
+            a co-operative bank's transaction activity.
+          </p>
+          <p class="project-solution">
+            <strong>What he built:</strong> Analyzed 100+ transactions and turned the raw
+            data into a visual report, translating spreadsheet detail into a narrative
+            that was easy for a non-technical audience to follow.
+          </p>
+          <div class="project-badges">
+            <span>Data Visualization</span><span>MS Excel</span><span>Financial Analysis</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <i data-lucide="users-round"></i>
+          </div>
+          <h3>College Management Fest — Team Lead</h3>
+          <p class="project-purpose">
+            <strong>Purpose:</strong> A university-level management fest needed
+            organization, logistics, and a coordinated volunteer effort.
+          </p>
+          <p class="project-solution">
+            <strong>What he built:</strong> Led 12 volunteers to plan and run the event
+            for 100+ participants — an early proof point for the team-leadership skills
+            he later brought to audit engagements.
+          </p>
+          <div class="project-badges">
+            <span>Leadership</span><span>Event Planning</span><span>Team Coordination</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY WORK WITH ME ===== -->
+  <section id="why-me" class="section why-me">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Why Work With Me</h2>
+        <p class="section-sub">Strengths backed by what actually happened on the job.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <i data-lucide="zap"></i>
+          <h3>Fast Learner</h3>
+          <p>Picked up an unfamiliar ERP with zero prior exposure and was running
+          compliance and reporting through it within weeks.</p>
+        </div>
+        <div class="why-card reveal">
+          <i data-lucide="crown"></i>
+          <h3>Builder of Teams</h3>
+          <p>Led and mentored a team of 6 across 70+ audits, and was promoted for it —
+          now the go-to resource for reporting questions.</p>
+        </div>
+        <div class="why-card reveal">
+          <i data-lucide="target"></i>
+          <h3>Attention to Detail</h3>
+          <p>Verified accounting records line by line, catching discrepancies that
+          strengthened controls and cut reporting errors.</p>
+        </div>
+        <div class="why-card reveal">
+          <i data-lucide="handshake"></i>
+          <h3>Client-First</h3>
+          <p>Main point of contact for audit clients — resolving queries while keeping
+          relationships strong, engagement after engagement.</p>
+        </div>
+        <div class="why-card reveal">
+          <i data-lucide="clock"></i>
+          <h3>Deadline Discipline</h3>
+          <p>100% of reporting deadlines met across 70+ client audits; 100% on-time
+          tax and regulatory filings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Let's Connect</h2>
+        <p class="section-sub">Open to conversations about finance, audit, and reporting roles.</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:dishandsouza18@hotmail.com">
+          <i data-lucide="mail"></i>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">dishandsouza18@hotmail.com</span>
+          </div>
+        </a>
+
+        <a class="contact-card" href="https://linkedin.com/in/dishandsouza" target="_blank" rel="noopener noreferrer">
+          <i data-lucide="linkedin"></i>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/dishandsouza</span>
+          </div>
+        </a>
+
+        <a class="contact-card" href="tel:+919995989165">
+          <i data-lucide="phone"></i>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 99959 89165</span>
+          </div>
+        </a>
+
+        <div class="contact-card contact-card-static">
+          <i data-lucide="map-pin"></i>
+          <div>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Mangalore, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-cta reveal">
+        <div class="resume-cta-text">
+          <i data-lucide="file-text"></i>
+          <div>
+            <span class="resume-cta-title">Full Resume</span>
+            <span class="resume-cta-sub">PDF · Updated 2026</span>
+          </div>
+        </div>
+        <div class="resume-cta-buttons">
+          <a href="assets/resume/1Dishan Vinoy D Souza.pdf" download="1Dishan Vinoy D Souza.pdf" class="btn btn-primary">
+            <i data-lucide="download"></i><span>Download</span>
+          </a>
+          <a href="assets/resume/1Dishan Vinoy D Souza.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+            <i data-lucide="external-link"></i><span>View Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© 2026 Dishan Vinoy D Souza</span>
+    <div class="footer-links">
+      <a href="mailto:dishandsouza18@hotmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+      <a href="https://linkedin.com/in/dishandsouza" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+      <a href="tel:+919995989165" aria-label="Phone"><i data-lucide="phone"></i></a>
+    </div>
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <i data-lucide="arrow-up"></i>
+    </button>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
